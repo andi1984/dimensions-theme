@@ -1,8 +1,8 @@
 {
-  "description": "An example dynamic theme",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/dynamic-theme",
+  "description": "A theme based on app.dimensions.ai colour theme.",
+  "homepage_url": "https://github.com/andi1984/dimensions-theme",
   "manifest_version": 2,
-  "name": "Dynamic theme example",
+  "name": "Dimensions Theme",
   "permissions": [
     "alarms",
     "theme"
@@ -10,7 +10,7 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "version": "1.0",
+  "version": "0.1",
   "applications": {
     "gecko": {
       "strict_min_version": "55.0a2"
