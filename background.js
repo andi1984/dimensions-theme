@@ -30,12 +30,12 @@ const themes = {
     colors: {
       accentcolor: colors.amber,
       popup: colors.amber,
-      textcolor: colors.chambray,
-      tab_text: colors.chambray,
-      tab_line: colors.chambray,
-      toolbar_bottom_separator: colors.chambray,
-      popup_text: colors.chambray,
-      popup_highlight: colors.chambray,
+      textcolor: colors.disco,
+      tab_text: colors.disco,
+      tab_line: colors.disco,
+      toolbar_bottom_separator: colors.disco,
+      popup_text: colors.disco,
+      popup_highlight: colors.disco,
       popup_highlight_text: colors.amber
     }
   }),
