@@ -15,9 +15,9 @@ const colors = {
 
 /**
  * Theme color scheme:
- * accentcolor: A,
+ * frame: A,
  * popup: A,
- * textcolor: B,
+ * tab_background_text: B,
  * tab_text: B,
  * tab_line: B,
  * toolbar_bottom_separator: B,
@@ -28,9 +28,9 @@ const colors = {
 const themes = {
   morning: Object.assign({}, BASETHEME, {
     colors: {
-      accentcolor: colors.amber,
+      frame: colors.amber,
       popup: colors.amber,
-      textcolor: colors.disco,
+      tab_background_text: colors.disco,
       tab_text: colors.disco,
       tab_line: colors.disco,
       toolbar_bottom_separator: colors.disco,
@@ -41,9 +41,9 @@ const themes = {
   }),
   afternoon: Object.assign({}, BASETHEME, {
     colors: {
-      accentcolor: colors.rioGrande,
+      frame: colors.rioGrande,
       popup: colors.rioGrande,
-      textcolor: colors.chambray,
+      tab_background_text: colors.chambray,
       tab_text: colors.chambray,
       tab_line: colors.chambray,
       toolbar_bottom_separator: colors.chambray,
@@ -54,9 +54,9 @@ const themes = {
   }),
   evening: Object.assign({}, BASETHEME, {
     colors: {
-      accentcolor: colors.disco,
+      frame: colors.disco,
       popup: colors.disco,
-      textcolor: colors.amber,
+      tab_background_text: colors.amber,
       tab_text: colors.amber,
       tab_line: colors.amber,
       toolbar_bottom_separator: colors.amber,
@@ -67,9 +67,9 @@ const themes = {
   }),
   night: Object.assign({}, BASETHEME, {
     colors: {
-      accentcolor: colors.chambray,
+      frame: colors.chambray,
       popup: colors.chambray,
-      textcolor: colors.rioGrande,
+      tab_background_text: colors.rioGrande,
       tab_text: colors.rioGrande,
       tab_line: colors.rioGrande,
       toolbar_bottom_separator: colors.rioGrande,
